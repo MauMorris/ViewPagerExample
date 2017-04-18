@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/activity_horizontal_margin"
+    tools:context="com.example.mauriciogodinez.pi.PortadasTabActivity">
+
+        <ImageView
+            android:id="@+id/iv_zigbee_tab"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center_horizontal|top"
+            android:contentDescription="@string/descripcion_contenido_iv_p3"
+            android:src="@drawable/zigbee_sensor_nodes"
+            android:layout_marginTop="35dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:id="@+id/tv_zigbee_titulo_tab"
+                style="@style/titulo_portada"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/titulo_p1"
+                android:layout_below="@+id/iv_zigbee_tab"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="38dp" />
+
+            <TextView
+                android:id="@+id/tv_zigbee_ayuda_tab"
+                style="@style/texto_portada"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/texto_p3"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/tv_zigbee_titulo_tab"
+                android:layout_alignParentStart="true" />
+
+</RelativeLayout>

@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">PI</string>
+
+    <string name="descripcion_contenido_iv_p1">Ejemplos de red zigbee</string>
+    <string name="descripcion_contenido_iv_p2">Red con dispositivos zigbee y conexion a internet</string>
+    <string name="descripcion_contenido_iv_p3">Red propuesta con dispositivos XBee</string>
+    <string name="descripcion_contenido_iv_creando_red">Esperando conexion</string>
+    <string name="descripcion_zigbee_iv">Control your world</string>
+
+    <string name="action_settings">Configuracion</string>
+
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+
+    <string name="title_activity_portada1">Portada1</string>
+    <string name="title_activity_portada2">Portada2</string>
+    <string name="title_activity_portada3">Portada3</string>
+
+    <string name="title_activity_creando_red">Creando Red</string>
+    <string name="title_activity_red_creada">Esquema de red</string>
+
+    <string name="titulo_p1">Configuración del sistema S.C.A.D.A.</string>
+    <string name="texto_p1">Bienvenido al sistema de calibración y configuracion de la red.</string>
+
+    <string name="titulo_p2">Diagnostico de la Red de monitoreo</string>
+    <string name="texto_p2">A continuación vamos a configurar el sistema para la creación de la red de monitoreo y supervisión.</string>
+
+    <string name="titulo_p3">Detección de dispositivos Xbee</string>
+    <string name="texto_p3">Asegúrate de conectar los dispositivos Xbee de forma adecuada y de haberlos configurado como coordinador o ruteador.</string>
+
+    <string name="texto_creando_red">Identificando dispositivos en la red</string>
+
+    <string name="boton_aceptar">Entendido</string>
+    <string name="boton_cancelar">Cancelar</string>
+    <string name="boton_omitir">OMITIR</string>
+
+    <string name="configurando_red_titulo">Configurando los dispositivos de red</string>
+    <string name="configurando_red_texto">Espera un momento</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+    </string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_portadas_tab">PortadasTabActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>

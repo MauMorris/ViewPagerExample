@@ -1,0 +1,52 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="FullscreenInicioApp" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="FullscreenZigbee" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="titulo_portada" parent="AppTheme">
+        <item name="android:textSize">@dimen/titulo_texto_portada</item>
+        <item name="android:textColor">@color/primaryText</item>
+        <item name="android:layout_marginBottom">@dimen/margin_texto_portada</item>
+    </style>
+
+    <style name="texto_portada" parent="AppTheme">
+        <item name="android:textSize">@dimen/ayuda_texto_portada</item>
+        <item name="android:textColor">@color/secondaryText</item>
+    </style>
+
+    <style name="botones_general" parent="AppTheme">
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:paddingLeft">@dimen/padding_button</item>
+        <item name="android:paddingRight">@dimen/padding_button</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/icons</item>
+        <item name="android:textSize">@dimen/texto_boton</item>
+    </style>
+</resources>

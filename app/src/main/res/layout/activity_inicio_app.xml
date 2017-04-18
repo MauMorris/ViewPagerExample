@@ -1,0 +1,17 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fullscreen_inicio_app"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context="com.example.mauriciogodinez.pi.InicioApp">
+
+    <ImageView
+        android:id="@+id/iv_zigbee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:keepScreenOn="true"
+        android:contentDescription="@string/descripcion_zigbee_iv"
+        android:src="@drawable/zigbee_logo" />
+</FrameLayout>

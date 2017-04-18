@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mauriciogodinez.pi">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/zigbee_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".InicioApp"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenInicioApp">
+            <intent-filter>
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PortadasTabActivity"
+            android:label="@string/title_activity_portadas_tab"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".CreandoRed"
+            android:label="@string/title_activity_creando_red"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenZigbee" />
+        <activity
+            android:name=".RedCreada"
+            android:label="@string/title_activity_red_creada"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+    </application>
+</manifest>
